@@ -1,0 +1,156 @@
+    
+<html>
+<head>
+    <title>Homepage | Library Management System</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dosis');
+        h1{
+            display: block;
+            font-size: 70;
+            font-family: 'Dosis', sans-serif;
+            color: rgba( 247, 247, 247, 0.672 );
+        }
+        
+        .main{
+            justify-content: center;
+            display: flex;
+            background-color: rgba( 0, 0, 0, 0.617 );
+            width: 80%;
+            height: 100%;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 0 50px #000000;
+            position: inherit;
+        }
+        
+        .b{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .b1{
+            display: flex;
+            justify-content: center;
+        }
+        
+        body{
+            background-image: url(img/back1.jpg);
+        }
+        
+.text {
+    display: flex;
+    border: 1px solid #848484;
+    border-radius: 30px;
+    height:25px; 
+    width: 275px;
+    width: auto;
+    margin: 20px;
+    height: 60px;
+    justify-content: center;
+    padding-left:10px; 
+    padding-right:10px; 
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    box-shadow: 0 0 15px #000000;
+  } 
+        .quote1{
+            width: 100%;
+            justify-content: center;
+            transform: translateY(90px);
+            font-size: 50px;
+            display: flex;
+            padding: 10px;
+            background-color: rgba( 41, 41, 50, 0.523 );
+            
+        }
+        h2{
+            color: rgba( 247, 247, 247, 0.523 );
+            text-shadow: 0 0 2px rgba( 255, 255, 255, 0.672 );
+        }
+        
+        .row1{
+            justify-content: center;
+            display: flex;
+            font-size: 80px;
+            margin: 10px;
+            background-color: rgba( 31, 55, 106, 0.672 );
+            transform: translateY(200px);
+            box-shadow: 0 0 20px #4147bd;
+        }
+        
+        .btn1{
+            justify-content: center;
+            display: inline-block;
+            margin: 40px;
+            width: 30%;
+        }
+        
+        .f1{
+            display: flex;
+            justify-content: center;
+            color: #000000;
+            padding: 20px;
+            text-shadow: 0 0 2px #0c0c0c;
+            transition: box-shadow 0.3s, border-radius 0.3s;
+        }
+        
+        .f1:hover{
+            box-shadow: 0 0 20px #f7f7f7;
+            border-radius: 50px;
+        }
+        
+        .row2{
+            justify-content: center;
+            display: flex;
+            font-size: 80px;
+            margin: 10px;
+            background-color: rgba( 31, 55, 106, 0.672 );
+            transform: translateY(200px);
+            box-shadow: 0 0 20px #4147bd;
+        }
+        
+        .plt2{
+            
+            display: block;
+        }
+    </style>
+</head>
+    
+    
+<body>
+    
+    <div class="b">
+    <div class="main">
+        <h1>Library Management System</h1>
+    </div>
+    </div>
+    <div class="b1">
+    <div class="quote1">
+    <h2>"Books are a uniquely portable magic,..!</h2>
+    </div>
+    </div>
+    <div class="row2">
+        <div class="plt2">
+        <div class="f1">Enter User Id</div>
+            
+        <form action="issue.jsp" method="post">
+        <input class="text" type="text" value="Enter Student Id Here" name="user_id">
+        <input class="text" type="submit" name="Submit" value="Submit">
+        </form>
+    </div>
+    </div>
+    
+    <div class="row1">
+        <div class="btn1"><a href="index.html">
+            <div class="f1">Logout</div>
+            </a></div>
+        <div class="btn1"><a href="Admin/BookControl.html">
+            <div class="f1">Book Control</div>
+            </a></div>
+        <div class="btn1"><a href="Admin/UserControl.html">
+            <div class="f1">Student Control</div>
+            </a></div>
+    </div>
+    
+</body>
+</html>
